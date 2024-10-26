@@ -1,7 +1,6 @@
 // src/components/HeroSection.jsx
 import HeroImg from '../assets/Frame7.png'
 import './HeroSection.css'
-import { ReactTyped } from 'react-typed'
 
 const HeroSection = () => {
   return (
@@ -16,18 +15,15 @@ const HeroSection = () => {
             <p className='text-lg md:text-2xl lg:text-5xl font-medium  md:mt-4'>
               Smooth Moves Start Here
             </p>
-            <ReactTyped
-              strings={['Professional and affordable.', 'Fully insured.']}
-              typeSpeed={50}
-              backSpeed={30}
-              backDelay={2000}
-              loop
-              className=' text-center mt-6 text-sm md:text-lg text-white '
-            />
+            <p className='typing-animation text-center mt-6 text-sm md:text-lg text-white '>
+              Professional and affordable.Fully insured.{' '}
+            </p>
 
-            <button className='bg-priRed  hover:bg-red-600 text-white py-3 px-8 mt-6 rounded-lg'>
-              Get Started
-            </button>
+            <div className='block'>
+              <button className='bg-priRed  hover:bg-red-600 text-white py-3 px-8 mt-6 rounded-lg'>
+                Get Started
+              </button>
+            </div>
           </div>
 
           {/* Image Section */}
