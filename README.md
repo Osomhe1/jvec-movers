@@ -22,5 +22,4 @@ Lazy Loading and Suspense - Component-based lazy loading
 
 ## Deployment
 
-1. Deploy on [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
-2. Link to the GitHub repository for automated updates.
+1. Deploy on [Vercel](https://jvec-movers-roan.vercel.app/).
